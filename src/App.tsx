@@ -2,12 +2,13 @@ import React from 'react';
 import './App.css';
 import {MicroTask01} from "./mircotasks/01_child_components/MicroTask01";
 import {MicroTask02} from "./mircotasks/02_method_map/MicroTask02";
-import {MicroTask03} from "./mircotasks/03_Button/Microtask_03";
-import {MicroTask04} from "./mircotasks/04_useState/Microtask_04";
+import {MicroTask03} from "./mircotasks/03_Button/Microtask03";
+import {MicroTask04} from "./mircotasks/04_useState/Microtask04";
+import {MicroTask05} from "./mircotasks/05_method_filter/MicroTask05";
 
 function App() {
   return (
-    <>
+    <div style={{padding: "20px"}}>
       <MicroTask01/>
       <hr/>
       <MicroTask02/>
@@ -16,7 +17,8 @@ function App() {
       <hr/>
       <MicroTask04/>
       <hr/>
-    </>
+      <MicroTask05/>
+    </div>
   );
 }
 
