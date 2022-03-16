@@ -6,6 +6,7 @@ import {MicroTask03} from "./mircotasks/03_Button/Microtask03";
 import {MicroTask04} from "./mircotasks/04_useState/Microtask04";
 import {MicroTask05} from "./mircotasks/05_method_filter/MicroTask05";
 import {MicroTask06} from "./mircotasks/06_input/MicroTask06";
+import {MicroTask07} from "./mircotasks/07_associative_array/MicroTask07";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <MicroTask05/>
       <hr/>
       <MicroTask06/>
+      <hr/>
+      <MicroTask07/>
     </div>
   );
 }
